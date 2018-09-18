@@ -72,5 +72,7 @@ typings/
 # Serverless directories
 .serverless
 
+# Misc Files
 package-lock.json
 .DS_Store
+.vscode
