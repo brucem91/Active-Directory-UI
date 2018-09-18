@@ -1,0 +1,21 @@
+{
+  "name": "active-directory-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "nodemon server.js",
+    "start": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
+    "build": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ad": "^0.3.2",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "concurrently": "^4.0.1"
+  }
+}
